@@ -28,11 +28,11 @@ pod "GRStarsView"
 GRStarsView *starsView = [[GRStarsView alloc] initWithStarSize:CGSizeMake(30, 30) margin:10 numberOfStars:5];
 ```
 初始化了星星的尺寸，间距和个数；
-此时starsView的默认origin为(0, 0);
+此时starsView的默认origin为(0, 0),size已设置好;
 #### *2. 设置frame ，并添加到某一个视图上
 
 ```
-starsView.frame = CGRectMake(50, 100, starsView.frame.size.width, starsView.frame.size.width);
+starsView.frame = CGRectMake(50, 100, starsView.frame.size.width, starsView.frame.size.height);
 ```
 ```
 [view addSubview:starsView]; //view为某个视图
