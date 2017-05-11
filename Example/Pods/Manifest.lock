@@ -1,0 +1,16 @@
+PODS:
+  - GRStarsView (0.1.0)
+
+DEPENDENCIES:
+  - GRStarsView (from `../`)
+
+EXTERNAL SOURCES:
+  GRStarsView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GRStarsView: a9cf0b315dd4ab5f547a2004943eef86e935a792
+
+PODFILE CHECKSUM: 84ad0950e043381b68a5a291a7a6086107ec4c7b
+
+COCOAPODS: 1.2.1

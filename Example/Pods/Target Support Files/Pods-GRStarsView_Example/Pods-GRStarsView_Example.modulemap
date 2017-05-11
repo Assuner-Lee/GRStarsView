@@ -1,0 +1,6 @@
+framework module Pods_GRStarsView_Example {
+  umbrella header "Pods-GRStarsView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

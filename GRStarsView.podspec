@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GRStarsView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GRStarsView.'
+  s.summary          = '一个简单实用的iOS 星星评分view，支持小数，支持点击、拖动评分。'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Assuner-Lee/GRStarsView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Assuner-Lee' => 'yongguang.li@ele.me' }
+  s.author           = { 'Assuner-Lee' => 'assuner@foxmail.com' }
   s.source           = { :git => 'https://github.com/Assuner-Lee/GRStarsView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'GRStarsView/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'GRStarsView' => ['GRStarsView/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'GRStarsView' => ['GRStarsView/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

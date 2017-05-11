@@ -1,0 +1,6 @@
+framework module GRStarsView {
+  umbrella header "GRStarsView-umbrella.h"
+
+  export *
+  module * { export * }
+}

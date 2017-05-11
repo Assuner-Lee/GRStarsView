@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05ABE62FCB8075B7D1AAC080EDB1B311 /* Pods-GRStarsView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5067E5F735EA8238FF4D7919FC1DDDB /* Pods-GRStarsView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CD631DE3FC8FCA80D1CB394FB57664D /* Pods-GRStarsView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C00A4F598B42B4E5A1C815B98D999E7 /* Pods-GRStarsView_Tests-dummy.m */; };
+		0E4D58AA3194065E167E63BE10C8C96F /* GRStarsView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BED57E870784C30A4BDE11B177F73A /* GRStarsView-dummy.m */; };
+		2B39AFAF7FACE1B4396E4023B9AD56B0 /* Pods-GRStarsView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F6E5A455E761DCD111FF400BBA17C0 /* Pods-GRStarsView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A98F00B2F5E4C19887592535235F96 /* GRStarsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C51D74491779C7442AEC9DE59175974 /* GRStarsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60945F0C3B21D3BD3C87DF5C4A643E40 /* light_star.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A27A9F95C966B43BD2EAE8A83406A93 /* light_star.png */; };
+		67A2734E25A9F8DA0CB02D0DADFF9479 /* Pods-GRStarsView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EA2E4B470FE341BD182C233360970E /* Pods-GRStarsView_Example-dummy.m */; };
+		7BCAE5B3D2BF87E569567F0CEFF98203 /* GRStarView.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FA93FE1C4996A3BBA1246ABF125F23 /* GRStarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		835A76C7707253D3D099C33AF926ECA4 /* GRStarsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB1605A57174F86432DE5D361F65319 /* GRStarsView.m */; };
+		88616C285BEE8C0EABDBB39385961418 /* GRStarsView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D45E1C72DBC441E788A20C050736AEFC /* GRStarsView.bundle */; };
+		B1CBA991DEBD5D55718F67D7518C5793 /* GRStarsView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA094A36131F8086960F7064D36A4AFA /* GRStarsView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB86C79C64D679C36F829F250217C516 /* pray_star.png in Resources */ = {isa = PBXBuildFile; fileRef = D39802F23B4288600C8A1564D1E0936D /* pray_star.png */; };
+		C6E55C7D2E18EB9EE8C6D7B9BE7E3B6A /* GRStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D021138E6831F537EC1A86BABA41E /* GRStarView.m */; };
+		D85A6751FB82355CA97C714678F614DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DE728DEA7B09DF707C98731913730525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E190B31D833C85A53A8261C3A1FD7316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		061C16A9DA658C175FC827BAD5B51D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 338E8718A06D92B8347193439BBCA86B;
+			remoteInfo = GRStarsView;
+		};
+		278DBF6DCA0832C19A5E30C9DE033778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D750777D66F1188216992E6F484FF7FB;
+			remoteInfo = "GRStarsView-GRStarsView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03AC1D2E0AB08D358AB4EDB69FA510D9 /* GRStarsView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GRStarsView-prefix.pch"; sourceTree = "<group>"; };
+		053402141E6B4A66CBD0F1899CA87FD1 /* Pods_GRStarsView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GRStarsView_Example.framework; path = "Pods-GRStarsView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A27A9F95C966B43BD2EAE8A83406A93 /* light_star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = light_star.png; sourceTree = "<group>"; };
+		0B4D021138E6831F537EC1A86BABA41E /* GRStarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRStarView.m; sourceTree = "<group>"; };
+		1E9CA8391D5E2A740AEDEBE6907AB243 /* Pods-GRStarsView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRStarsView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		212600A7AABC33EC172BBAAA8BA8CCAA /* Pods-GRStarsView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GRStarsView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C021A346A616B84A97B7EDE90C92F26 /* Pods-GRStarsView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GRStarsView_Tests.modulemap"; sourceTree = "<group>"; };
+		2C8A2928D644C6D9A7A019A0FA29E55F /* ResourceBundle-GRStarsView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GRStarsView-Info.plist"; sourceTree = "<group>"; };
+		31E09B92A728E6176E313E8EFAA21AD9 /* Pods-GRStarsView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRStarsView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3DB1605A57174F86432DE5D361F65319 /* GRStarsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRStarsView.m; sourceTree = "<group>"; };
+		40F9B783A8A02EC0E3614305A99FDDF1 /* Pods-GRStarsView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GRStarsView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4278F6104DF9C7ADD9748A8D45F20C4F /* GRStarsView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GRStarsView.framework; path = GRStarsView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		528D49EBE4770D73E35A8C79237752ED /* Pods-GRStarsView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRStarsView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5BA0636FE492C408ED55546D6006B0EB /* Pods-GRStarsView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GRStarsView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D94B4BF0E86815D2B8729401379AC55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6AF9E7FC2AB5B1628FF4A7FBD47D09AD /* Pods-GRStarsView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRStarsView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7C00A4F598B42B4E5A1C815B98D999E7 /* Pods-GRStarsView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GRStarsView_Tests-dummy.m"; sourceTree = "<group>"; };
+		7E57F3BA3C6DB9D070DE35D3E07467B0 /* GRStarsView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GRStarsView.modulemap; sourceTree = "<group>"; };
+		88BED57E870784C30A4BDE11B177F73A /* GRStarsView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GRStarsView-dummy.m"; sourceTree = "<group>"; };
+		8C8BACD36E3F3FEBADA9A925FF297104 /* Pods-GRStarsView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GRStarsView_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95F6E5A455E761DCD111FF400BBA17C0 /* Pods-GRStarsView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GRStarsView_Example-umbrella.h"; sourceTree = "<group>"; };
+		975FD0C681808450FC0AD73C8A1E650F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C51D74491779C7442AEC9DE59175974 /* GRStarsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRStarsView.h; sourceTree = "<group>"; };
+		A0CFA231CBE58D9A4B0F0DBD14EB2B96 /* Pods_GRStarsView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GRStarsView_Tests.framework; path = "Pods-GRStarsView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5067E5F735EA8238FF4D7919FC1DDDB /* Pods-GRStarsView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GRStarsView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A569D01FEC37244C09F40821AB4CFCB7 /* Pods-GRStarsView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GRStarsView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C07F8282814A720F9178C88E5C3F70F8 /* Pods-GRStarsView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRStarsView_Tests-resources.sh"; sourceTree = "<group>"; };
+		CA094A36131F8086960F7064D36A4AFA /* GRStarsView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GRStarsView-umbrella.h"; sourceTree = "<group>"; };
+		D2F3FC535B33DAAB9CFC6E5F2412AE75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D39802F23B4288600C8A1564D1E0936D /* pray_star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = pray_star.png; sourceTree = "<group>"; };
+		D45E1C72DBC441E788A20C050736AEFC /* GRStarsView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GRStarsView.bundle; path = GRStarsView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0F17E981196E41B04ABC26D22C34EF /* Pods-GRStarsView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRStarsView_Example-resources.sh"; sourceTree = "<group>"; };
+		E014EF6CE4BE351CF639C4A958B7E3A0 /* Pods-GRStarsView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRStarsView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E5EA2E4B470FE341BD182C233360970E /* Pods-GRStarsView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GRStarsView_Example-dummy.m"; sourceTree = "<group>"; };
+		E892DEB610F08D6F3E5FBA0B8C22D69B /* GRStarsView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GRStarsView.xcconfig; sourceTree = "<group>"; };
+		ED8A12CD4EF09BA644D96C938F3E044B /* Pods-GRStarsView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRStarsView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7FA93FE1C4996A3BBA1246ABF125F23 /* GRStarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRStarView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E95907F15D25256796CD44DD157808D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85A6751FB82355CA97C714678F614DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673F120174B65240BC93DA67B32268DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E190B31D833C85A53A8261C3A1FD7316 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7617F6A91C2DCDB7AC7CEA1888D10FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87D1DDEABFFAE63062D050EC7E50E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE728DEA7B09DF707C98731913730525 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C8A8FBA8EAC86CDCB2E19BB459CF4D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				730F8F401414B3B1F219560868CF8D37 /* GRStarsView */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3577464029877391DDFB256F2ABB4364 /* GRStarsView */ = {
+			isa = PBXGroup;
+			children = (
+				3DF12E90EBE8EE95C59E88189C2C0C4D /* Classes */,
+			);
+			name = GRStarsView;
+			path = GRStarsView;
+			sourceTree = "<group>";
+		};
+		3DF12E90EBE8EE95C59E88189C2C0C4D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9C51D74491779C7442AEC9DE59175974 /* GRStarsView.h */,
+				3DB1605A57174F86432DE5D361F65319 /* GRStarsView.m */,
+				F7FA93FE1C4996A3BBA1246ABF125F23 /* GRStarView.h */,
+				0B4D021138E6831F537EC1A86BABA41E /* GRStarView.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		655F08B7DC010B0D64DBEFE928E4C785 /* Pods-GRStarsView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				975FD0C681808450FC0AD73C8A1E650F /* Info.plist */,
+				8C8BACD36E3F3FEBADA9A925FF297104 /* Pods-GRStarsView_Example.modulemap */,
+				40F9B783A8A02EC0E3614305A99FDDF1 /* Pods-GRStarsView_Example-acknowledgements.markdown */,
+				212600A7AABC33EC172BBAAA8BA8CCAA /* Pods-GRStarsView_Example-acknowledgements.plist */,
+				E5EA2E4B470FE341BD182C233360970E /* Pods-GRStarsView_Example-dummy.m */,
+				1E9CA8391D5E2A740AEDEBE6907AB243 /* Pods-GRStarsView_Example-frameworks.sh */,
+				DF0F17E981196E41B04ABC26D22C34EF /* Pods-GRStarsView_Example-resources.sh */,
+				95F6E5A455E761DCD111FF400BBA17C0 /* Pods-GRStarsView_Example-umbrella.h */,
+				E014EF6CE4BE351CF639C4A958B7E3A0 /* Pods-GRStarsView_Example.debug.xcconfig */,
+				528D49EBE4770D73E35A8C79237752ED /* Pods-GRStarsView_Example.release.xcconfig */,
+			);
+			name = "Pods-GRStarsView_Example";
+			path = "Target Support Files/Pods-GRStarsView_Example";
+			sourceTree = "<group>";
+		};
+		730F8F401414B3B1F219560868CF8D37 /* GRStarsView */ = {
+			isa = PBXGroup;
+			children = (
+				F88EE1493612CAC488A8046750F1ECB9 /* Assets */,
+			);
+			name = GRStarsView;
+			path = GRStarsView;
+			sourceTree = "<group>";
+		};
+		797B35FF5961D70634B52F97EE80D01A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				655F08B7DC010B0D64DBEFE928E4C785 /* Pods-GRStarsView_Example */,
+				9013AA05E72DE4EEA7656C5E4CA552C7 /* Pods-GRStarsView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D8B6230C720E6C3F685E034528ADA650 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DF07793BEB18C8F482499F7BA8B38596 /* Products */,
+				797B35FF5961D70634B52F97EE80D01A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9013AA05E72DE4EEA7656C5E4CA552C7 /* Pods-GRStarsView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5D94B4BF0E86815D2B8729401379AC55 /* Info.plist */,
+				2C021A346A616B84A97B7EDE90C92F26 /* Pods-GRStarsView_Tests.modulemap */,
+				A569D01FEC37244C09F40821AB4CFCB7 /* Pods-GRStarsView_Tests-acknowledgements.markdown */,
+				5BA0636FE492C408ED55546D6006B0EB /* Pods-GRStarsView_Tests-acknowledgements.plist */,
+				7C00A4F598B42B4E5A1C815B98D999E7 /* Pods-GRStarsView_Tests-dummy.m */,
+				31E09B92A728E6176E313E8EFAA21AD9 /* Pods-GRStarsView_Tests-frameworks.sh */,
+				C07F8282814A720F9178C88E5C3F70F8 /* Pods-GRStarsView_Tests-resources.sh */,
+				A5067E5F735EA8238FF4D7919FC1DDDB /* Pods-GRStarsView_Tests-umbrella.h */,
+				ED8A12CD4EF09BA644D96C938F3E044B /* Pods-GRStarsView_Tests.debug.xcconfig */,
+				6AF9E7FC2AB5B1628FF4A7FBD47D09AD /* Pods-GRStarsView_Tests.release.xcconfig */,
+			);
+			name = "Pods-GRStarsView_Tests";
+			path = "Target Support Files/Pods-GRStarsView_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5A168E6F45709F7C519EBC6752FB263 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E57F3BA3C6DB9D070DE35D3E07467B0 /* GRStarsView.modulemap */,
+				E892DEB610F08D6F3E5FBA0B8C22D69B /* GRStarsView.xcconfig */,
+				88BED57E870784C30A4BDE11B177F73A /* GRStarsView-dummy.m */,
+				03AC1D2E0AB08D358AB4EDB69FA510D9 /* GRStarsView-prefix.pch */,
+				CA094A36131F8086960F7064D36A4AFA /* GRStarsView-umbrella.h */,
+				D2F3FC535B33DAAB9CFC6E5F2412AE75 /* Info.plist */,
+				2C8A2928D644C6D9A7A019A0FA29E55F /* ResourceBundle-GRStarsView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GRStarsView";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D8B6230C720E6C3F685E034528ADA650 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC1B6009A7180C83AC69E601FAED23E2 /* GRStarsView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DF07793BEB18C8F482499F7BA8B38596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D45E1C72DBC441E788A20C050736AEFC /* GRStarsView.bundle */,
+				4278F6104DF9C7ADD9748A8D45F20C4F /* GRStarsView.framework */,
+				053402141E6B4A66CBD0F1899CA87FD1 /* Pods_GRStarsView_Example.framework */,
+				A0CFA231CBE58D9A4B0F0DBD14EB2B96 /* Pods_GRStarsView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC1B6009A7180C83AC69E601FAED23E2 /* GRStarsView */ = {
+			isa = PBXGroup;
+			children = (
+				3577464029877391DDFB256F2ABB4364 /* GRStarsView */,
+				0C8A8FBA8EAC86CDCB2E19BB459CF4D9 /* Resources */,
+				C5A168E6F45709F7C519EBC6752FB263 /* Support Files */,
+			);
+			name = GRStarsView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F88EE1493612CAC488A8046750F1ECB9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0A27A9F95C966B43BD2EAE8A83406A93 /* light_star.png */,
+				D39802F23B4288600C8A1564D1E0936D /* pray_star.png */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6D9E590A5F27B317556A385CFBF606B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B39AFAF7FACE1B4396E4023B9AD56B0 /* Pods-GRStarsView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA2670FCC04D79F50DECEEA0D7AB6EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05ABE62FCB8075B7D1AAC080EDB1B311 /* Pods-GRStarsView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A642AB83A2F00FA1F512F1B838D448CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CBA991DEBD5D55718F67D7518C5793 /* GRStarsView-umbrella.h in Headers */,
+				38A98F00B2F5E4C19887592535235F96 /* GRStarsView.h in Headers */,
+				7BCAE5B3D2BF87E569567F0CEFF98203 /* GRStarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		338E8718A06D92B8347193439BBCA86B /* GRStarsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9856B53576FFD09F546920A5795BD9 /* Build configuration list for PBXNativeTarget "GRStarsView" */;
+			buildPhases = (
+				FCEE5381996402028EB5D94491C179AE /* Sources */,
+				673F120174B65240BC93DA67B32268DA /* Frameworks */,
+				BF510DCD52A255ACEFCC1509BB11D184 /* Resources */,
+				A642AB83A2F00FA1F512F1B838D448CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D02B8CBBEEB144A96FEB8A40674F5C4 /* PBXTargetDependency */,
+			);
+			name = GRStarsView;
+			productName = GRStarsView;
+			productReference = 4278F6104DF9C7ADD9748A8D45F20C4F /* GRStarsView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC75ABC2662BE67807D00A88ED891CEB /* Pods-GRStarsView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9FC8293B002534E278E0F2845DDEB72 /* Build configuration list for PBXNativeTarget "Pods-GRStarsView_Tests" */;
+			buildPhases = (
+				1FAC80F09D9066B779556133CF9AB5AB /* Sources */,
+				3E95907F15D25256796CD44DD157808D /* Frameworks */,
+				7CA2670FCC04D79F50DECEEA0D7AB6EA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GRStarsView_Tests";
+			productName = "Pods-GRStarsView_Tests";
+			productReference = A0CFA231CBE58D9A4B0F0DBD14EB2B96 /* Pods_GRStarsView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D750777D66F1188216992E6F484FF7FB /* GRStarsView-GRStarsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C44779CCD7F985B84CC70A7A0F257C /* Build configuration list for PBXNativeTarget "GRStarsView-GRStarsView" */;
+			buildPhases = (
+				34440984FE6FF2489899FEAB35BE895B /* Sources */,
+				7617F6A91C2DCDB7AC7CEA1888D10FDA /* Frameworks */,
+				B55377B0365130C299300931504ACE45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GRStarsView-GRStarsView";
+			productName = "GRStarsView-GRStarsView";
+			productReference = D45E1C72DBC441E788A20C050736AEFC /* GRStarsView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F72E2A48FBD51C367209E8262C1909F3 /* Pods-GRStarsView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F16EF580115CAE22D8702F601AF9A5D /* Build configuration list for PBXNativeTarget "Pods-GRStarsView_Example" */;
+			buildPhases = (
+				7BA20FFE9BA411C874A7C59548A492BA /* Sources */,
+				F87D1DDEABFFAE63062D050EC7E50E2E /* Frameworks */,
+				6D9E590A5F27B317556A385CFBF606B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17676FAA4D49EB8A1D1EB6B0D4F68B2C /* PBXTargetDependency */,
+			);
+			name = "Pods-GRStarsView_Example";
+			productName = "Pods-GRStarsView_Example";
+			productReference = 053402141E6B4A66CBD0F1899CA87FD1 /* Pods_GRStarsView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DF07793BEB18C8F482499F7BA8B38596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				338E8718A06D92B8347193439BBCA86B /* GRStarsView */,
+				D750777D66F1188216992E6F484FF7FB /* GRStarsView-GRStarsView */,
+				F72E2A48FBD51C367209E8262C1909F3 /* Pods-GRStarsView_Example */,
+				BC75ABC2662BE67807D00A88ED891CEB /* Pods-GRStarsView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B55377B0365130C299300931504ACE45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60945F0C3B21D3BD3C87DF5C4A643E40 /* light_star.png in Resources */,
+				BB86C79C64D679C36F829F250217C516 /* pray_star.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF510DCD52A255ACEFCC1509BB11D184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88616C285BEE8C0EABDBB39385961418 /* GRStarsView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FAC80F09D9066B779556133CF9AB5AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD631DE3FC8FCA80D1CB394FB57664D /* Pods-GRStarsView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34440984FE6FF2489899FEAB35BE895B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA20FFE9BA411C874A7C59548A492BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A2734E25A9F8DA0CB02D0DADFF9479 /* Pods-GRStarsView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEE5381996402028EB5D94491C179AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4D58AA3194065E167E63BE10C8C96F /* GRStarsView-dummy.m in Sources */,
+				835A76C7707253D3D099C33AF926ECA4 /* GRStarsView.m in Sources */,
+				C6E55C7D2E18EB9EE8C6D7B9BE7E3B6A /* GRStarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17676FAA4D49EB8A1D1EB6B0D4F68B2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GRStarsView;
+			target = 338E8718A06D92B8347193439BBCA86B /* GRStarsView */;
+			targetProxy = 061C16A9DA658C175FC827BAD5B51D83 /* PBXContainerItemProxy */;
+		};
+		8D02B8CBBEEB144A96FEB8A40674F5C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GRStarsView-GRStarsView";
+			target = D750777D66F1188216992E6F484FF7FB /* GRStarsView-GRStarsView */;
+			targetProxy = 278DBF6DCA0832C19A5E30C9DE033778 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1859F6528C319E73CEBD408CC8E59AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E892DEB610F08D6F3E5FBA0B8C22D69B /* GRStarsView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GRStarsView/GRStarsView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GRStarsView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GRStarsView/GRStarsView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GRStarsView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		36F3D053B0DECFE1CBE74D875934EF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E892DEB610F08D6F3E5FBA0B8C22D69B /* GRStarsView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GRStarsView/GRStarsView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GRStarsView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GRStarsView/GRStarsView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GRStarsView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45A5309EFA91FA87EAA6E99541C6F9BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED8A12CD4EF09BA644D96C938F3E044B /* Pods-GRStarsView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GRStarsView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GRStarsView_Tests/Pods-GRStarsView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GRStarsView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5338B12688CAF0E498AFC7A31ABF9DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E892DEB610F08D6F3E5FBA0B8C22D69B /* GRStarsView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GRStarsView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/GRStarsView/ResourceBundle-GRStarsView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GRStarsView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5EC54DD978281B0EC5CE669A983916C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E892DEB610F08D6F3E5FBA0B8C22D69B /* GRStarsView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GRStarsView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/GRStarsView/ResourceBundle-GRStarsView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GRStarsView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7078589336AE04F65CA01DD2D5B592E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528D49EBE4770D73E35A8C79237752ED /* Pods-GRStarsView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GRStarsView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GRStarsView_Example/Pods-GRStarsView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GRStarsView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B246DB5FA683BF06755B9F0D17417251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E014EF6CE4BE351CF639C4A958B7E3A0 /* Pods-GRStarsView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GRStarsView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GRStarsView_Example/Pods-GRStarsView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GRStarsView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF5085978E0CDD7950B3B9CE86979E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF9E7FC2AB5B1628FF4A7FBD47D09AD /* Pods-GRStarsView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GRStarsView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GRStarsView_Tests/Pods-GRStarsView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GRStarsView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F16EF580115CAE22D8702F601AF9A5D /* Build configuration list for PBXNativeTarget "Pods-GRStarsView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B246DB5FA683BF06755B9F0D17417251 /* Debug */,
+				7078589336AE04F65CA01DD2D5B592E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20C44779CCD7F985B84CC70A7A0F257C /* Build configuration list for PBXNativeTarget "GRStarsView-GRStarsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5338B12688CAF0E498AFC7A31ABF9DED /* Debug */,
+				5EC54DD978281B0EC5CE669A983916C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9856B53576FFD09F546920A5795BD9 /* Build configuration list for PBXNativeTarget "GRStarsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1859F6528C319E73CEBD408CC8E59AFB /* Debug */,
+				36F3D053B0DECFE1CBE74D875934EF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9FC8293B002534E278E0F2845DDEB72 /* Build configuration list for PBXNativeTarget "Pods-GRStarsView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A5309EFA91FA87EAA6E99541C6F9BA /* Debug */,
+				FF5085978E0CDD7950B3B9CE86979E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
