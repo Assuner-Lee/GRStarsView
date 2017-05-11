@@ -22,7 +22,7 @@ pod "GRStarsView"
 
 ## Author
 
-Assuner-Lee, yongguang.li@ele.me
+Assuner-Lee, assuner@foxmail.com
 
 ## License
 
