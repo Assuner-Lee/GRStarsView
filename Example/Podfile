@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GRStarsView_Example' do
+  pod 'GRStarsView', :path => '../'
+
+  target 'GRStarsView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
